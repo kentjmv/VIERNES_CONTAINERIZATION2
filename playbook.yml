@@ -7,7 +7,7 @@
     
     - name: Run Docker
       include_role:
-        name: DOCKER
+        name: docker
 
     - name: Build and Run LAMP STACK
       include_role:
